@@ -1,0 +1,27 @@
+$ORIGIN .
+$TTL 80 ; 1 minute 20 seconds
+nyc                     IN SOA  ns.nyc. support.nyc. (
+                                2012063696 ; serial
+                                10800      ; refresh (3 hours)
+                                900        ; retry (15 minutes)
+                                1814400    ; expire (3 weeks)
+                                10800      ; minimum (3 hours)
+                                )
+                        NS      ns.nyc.
+$ORIGIN nyc.
+continius-local-staging A       10.7.6.109
+continius-studyproxy    A       10.7.6.109
+controller              A       10.7.10.12
+                        A       10.7.10.13
+                        A       10.7.10.14
+hiera                   A       10.7.10.12
+                        A       10.7.10.13
+                        A       10.7.10.14
+hiera2                  A       10.7.10.12
+                        A       10.7.10.13
+                        A       10.7.10.14
+hub-nomad               A       10.7.10.227
+hub-nomad-tvf           A       10.7.10.227
+hub-nomad-tvf-psm       A       10.7.10.227
+hub0                    A       10.7.10.7
+hub0-fr                 A       10.7.10.131
