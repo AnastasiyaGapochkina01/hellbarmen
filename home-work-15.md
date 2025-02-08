@@ -4,6 +4,7 @@
 [date time] hostname total_ram used_ram
 ```
 Cron НЕ использовать
+
 2) Написать скрипт, который получит список пользователей и запишет его в файл all_users в формате
 ```
 $sequence_number $username $uid $gropus
